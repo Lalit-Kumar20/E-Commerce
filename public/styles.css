@@ -1,0 +1,432 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Arvo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+body{
+
+  background-image: url("back\ \(2\).jpg"); 
+  align-items: center;
+display: inline;
+margin: 0 auto;
+justify-content: center;
+}
+.about {
+  margin-left: 90%;
+}
+.pp {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.p {
+ font-size: 65px;
+ color: black;
+ margin-left: 40%;
+ margin-top: 15%;
+ font-weight: bolder;
+ text-decoration: black;
+ display: inline-block;
+ cursor: pointer;
+}
+.first {
+display: inline-block;
+position: relative;
+transition: 0.8s;
+}
+
+.second {
+  display: inline-block;
+  position: relative;
+  
+transition: 0.8s;
+}
+
+.third {
+  display: inline-block;
+  position: relative;
+  
+transition: 0.8s;
+}
+
+.fourth {
+  display: inline-block;
+  position: relative;
+  
+  transition: 0.8s;
+}
+
+.fifth {
+  display: inline-block;
+  position: relative;
+  
+transition: 0.8s;
+}
+
+.sixth {
+  display: inline-block;
+  position: relative;
+  
+transition: 0.8s;
+}
+
+.seventh {
+  display: inline-block;
+  position: relative;
+  
+transition: 0.8s;
+}
+
+.eighth {
+  display: inline-block;
+  position: relative;
+  
+transition: 0.8s;
+}
+
+.ninth {
+  display: inline-block;
+  position: relative;
+  
+transition: 0.8s;
+}
+
+.tenth {
+  display: inline-block;
+  position: relative;
+  
+transition: 0.8s;
+}
+
+.eleventh {
+  display: inline-block;
+  position: relative;
+  
+transition: 0.8s;
+}
+
+.twelve {
+  display: inline-block;
+  position: relative;
+  
+transition: 0.8s;
+}
+
+.thirteen {
+  display: inline-block;
+  position: relative;
+  
+transition: 0.8s;
+}
+
+.fourteen {
+  display: inline-block;
+  position: relative;
+  
+  transition: 0.8s;
+}
+
+.fifteen {
+  display: inline-block;
+  position: relative;
+  
+  transition: 0.8s;
+  
+}
+
+.sixteen {
+  position: relative;
+  
+  transition: 0.8s;
+
+  display: inline-block;
+}
+
+.seventeen {
+  position: relative;
+  
+  transition: 0.8s;
+
+  display: inline-block;
+}
+
+.first:hover {
+  transform: scale(1.7); 
+  margin-left: 5px;
+  margin-right: 5px; 
+}
+  
+  .second:hover { 
+    transform: scale(1.7);
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  
+  .third:hover { 
+    transform: scale(1.7);
+    margin-left: 5px;
+    margin-right: 5px; 
+  }
+  
+  .fourth:hover { 
+    transform: scale(1.7);
+    margin-left: 5px;
+    margin-right: 5px; 
+  }
+  
+  .fifth:hover { 
+    transform: scale(1.7);
+    margin-left: 5px;
+    margin-right: 5px; 
+  }
+  
+  .sixth:hover { 
+    transform: scale(1.7);
+    margin-left: 5px;
+    margin-right: 5px; 
+  }
+  
+  .seventh:hover { 
+    transform: scale(1.7);
+    margin-left: 5px;
+    margin-right: 5px; 
+  }
+  
+  .eighth:hover { 
+    transform: scale(1.7);
+    margin-left: 5px;
+    margin-right: 5px; 
+  }
+  
+  .ninth:hover { 
+    transform: scale(1.7);
+    margin-left: 5px;
+    margin-right: 5px; 
+  }
+  
+  .tenth:hover { 
+    transform: scale(1.7);
+    margin-left: 5px;
+    margin-right: 5px; 
+  }
+  
+  .eleventh:hover { 
+    transform: scale(1.7);
+    margin-left: 5px;
+    margin-right: 5px; 
+  }
+  
+  .twelve:hover { 
+    transform: scale(1.7);
+    margin-left: 5px;
+    margin-right: 5px; 
+  }
+  
+  .thirteen:hover { 
+    transform: scale(1.7);
+    margin-left: 5px;
+    margin-right: 5px; 
+  }
+  
+  .fourteen:hover { 
+    transform: scale(1.7);
+    margin-left: 5px;
+    margin-right: 5px; 
+  }
+  
+  .fifteen:hover { 
+    transform: scale(1.7);
+    margin-left: 5px;
+    margin-right: 5px; 
+  }
+  
+  .sixteen:hover { 
+    transform: scale(1.7);
+    margin-left: 5px;
+    margin-right: 5px; 
+  }
+  
+  .seventeen:hover { 
+    transform: scale(1.7);
+    margin-left: 5px;
+    margin-right: 5px; 
+  }
+.contact {
+  width: 150px;
+  height: 50px;
+  margin-top: 0;
+  color: black;
+  border:none;
+  border:solid 2px black;
+  border-radius: 5px;
+  background: rgba(255, 255, 255,0);
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.container2 {
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  left: 56.59%;
+  top: 65%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container1 {
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  left: 44.2%;
+  top: 65%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.foot {
+  margin-top: 47%;
+  margin-left: 47%;
+  color: black;
+  font-family: 'Anton', sans-serif;
+font-family: 'Arvo', serif;
+letter-spacing: 2px;
+}
+
+
+.center {
+  width: 180px;
+  height: 60px;
+  position: absolute;
+}
+
+.btn {
+  width: 180px;
+  height: 60px;
+  cursor: pointer;
+  background: #A6F1DE;
+  opacity: 1.1;
+  margin-top: 45;
+  border: 1px solid #0AE3AB;
+  outline: none;
+  transition: 1s ease-in-out;
+}
+
+svg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  fill: none;
+  margin-top: 45;
+  letter-spacing: 3.5px;
+  stroke: #fff;
+  stroke-dasharray: 150 480;
+  stroke-dashoffset: 150;
+  transition: 1s ease-in-out;
+}
+
+.btn:hover {
+  transition: 1s ease-in-out;
+  background: #10C697;
+}
+
+.btn:hover svg {
+  stroke-dashoffset: -480;
+}
+
+
+.btn span {
+  color: black;
+  font-size: 27px;
+  font-weight: bold;
+  margin-top: 45;
+  letter-spacing: 3.5px;
+}
+@media (max-height: 500px) and (min-height: 200px) {
+  body {
+    background-image: url("back\ \(2\).jpg");
+    margin: 0;
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
+  .container2 {
+    width: 50px;
+    height: 50px;
+    top: 110%;
+    left: 55%;
+  }
+  .p {
+    margin-left: 35%;
+    margin-top: 5%;
+    font-size: 55px;
+  }
+  .container1 {
+    width: 50px;
+    height: 50px;
+    left: 55%;
+    top: 80%;
+  }
+  .foot {
+    margin-top: 120%;
+    margin-left: 50%;
+  }
+  .about{
+    margin-left: 65%;
+  }
+  .pp {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+}
+@media (max-width: 811px) and (min-width: 200px) {
+  body {
+    background-image: url("back\ \(2\).jpg");
+    
+    margin: 0;
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
+  .pp {
+    margin: 0;
+    position: relative;
+    top: 20%;
+  }
+  .container2 {
+    width: 50px;
+    height: 50px;
+    top: 80%;
+    left: 50%;
+  }
+  .p {
+    margin-left: 20%;
+    margin-top: 40%;
+    font-size: 36px;
+    align-content: center;
+    font-weight: 100000000;
+
+  }
+  .container1 {
+    width: 50px;
+    height: 50px;
+    left: 50%;
+    top: 60%;
+  }
+  .foot {
+    margin-top: 150%;
+    margin-left: 40%;
+  }
+  .about{
+    margin-left: 65%;
+  }
+ }

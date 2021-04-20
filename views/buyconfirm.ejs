@@ -1,0 +1,20 @@
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Confirmation</title>
+<link rel="stylesheet" href="buyconf.css">
+<div class = 'top'>
+<p class = 'text'>Are you sure you want to buy items { <%= items %> } with total price of <%= price %></p>
+</div>
+<div class="bot">
+    <form action="/bb" method="POST">
+        <input type="hidden" name = "val" value="<%= user %>+<%= pass %>">
+        <button class = 'back' type = 'submit'>Back</button>
+        </form>
+        <form action="/next" method="POST">
+            <input type="hidden" name = "val" value = "<%= user %>~<%= items %>~<%= price %>~<%= pass %>" >
+            <button class = 'submit' type = 'submit'>Confirm</button>
+            </form>
+             
+   
+</div>
+
+    

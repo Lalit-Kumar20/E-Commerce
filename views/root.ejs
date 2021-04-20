@@ -1,0 +1,119 @@
+
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Root</title>
+<link rel="stylesheet" href="root.css">
+<script src="custom.js"></script>
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+
+<div id="navbar">
+  <p  id="logo">Welcome, root !</p>
+  <div id="navbar-right">
+    <a href="/m" class="ex">Orders</a>
+    <a href="/exit" class="ex" id = "log">Logout</a>
+    
+  </div>
+</div>
+
+<div id = "fff" class = "f">
+  <p class="additem">
+    Add a new item
+    </p>
+  <form class = "ff" action = "/root" method = "POST" enctype="multipart/form-data">
+    <input class = "un" type = "text" name = "title" placeholder="title" required/>
+    <input class = "un" type = "text" name = "description" placeholder="description" required/>
+    <input class = "un" type = "text" name = "date" placeholder="date" required/>
+    <input class = "un" type = "text" name = "price" placeholder="price" required>
+    <input class = "un" type = "file" name = "file" required/>
+
+    <button class = "pass" type = "submit">Add</button>
+</form>
+
+</div>
+<!--
+<form action='/rootdelete' method="POST">
+  <% her.forEach(function(post){ %>
+
+      <% if(!post.price){ %>
+        <%  post.price = 0; %>
+          <% } %>    
+      <input type="checkbox" value="<%= post.title %>" name = "items">
+          
+          <h1><%= post.title %></h1>
+          <img src="<%= post.imagename %>" alt="">
+          
+          <h1><%= post.description %></h1>
+          <h1><%= post.date %></h1>
+          <h1><%= post.price %></h1>
+          <% }) %>
+       <button type = 'submit'>Delete</button>
+      </form> 
+    -->
+
+    <div class="deleteitem">
+  
+    </div>
+<div class = "posts">
+  <div class="hero">
+  
+      <form action='/rootdelete' method="POST">
+        <% her.forEach(function(post){ %>
+    
+          <div class="main">
+            <% if(!post.price){ %>
+              <%  post.price = 0; %>
+                <% } %>   
+                            
+                <div class = "title" >
+             <p class = 'dd'>Name :-</p>    
+             <p class='ee'><%= post.title %></p>
+                </div>
+                
+                <div class = "checkbox" style="float: left;">
+                  
+                    <input id = 'x' class = "toggle"  type="checkbox" value="<%= post.title %>" name = "items">  
+                    <label for='x'></label>
+                    <div class = 'tap'>  Tap to select item</div>
+               </div>
+                       
+              
+                <div class = "image" style="float: left;">
+                  <img src="<%= post.imagename %>" alt="" width="500" height="500">
+                  
+                </div>
+                       
+                <div class = "desc">
+                  
+             <p class = 'dd'>Description :-</p>
+                  <p class="ee"><%= post.description %></1>
+                  
+                </div>
+                       
+                <div class = "date">
+                  
+                  <p class = 'dd'>Date :-</p>
+         
+                  <p class="ee"><%= post.date %></p>
+                  
+                </div>
+                       
+                <div class = "price">
+                  <p class = 'dd'>Price:-</p>
+         
+                  <p class="ee"><%= post.price %></p>
+                  
+                </div>
+                
+                <% }) %>
+           
+          </div>
+             <button id = "bot" class = "pass" type = 'submit'>Delete</button>
+            </form> 
+      
+          </div> 
+        </div>
+
+        

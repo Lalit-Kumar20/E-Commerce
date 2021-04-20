@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&display=swap');
+body {
+    background-color: #0AE3AB;
+}
+.top {
+    margin-left: 35%;
+    margin-top: 10%;
+}
+.h1 {
+    font-size: 90px;
+    font-weight: bolder;
+    color: sienna;
+    font-family: 'Carter One', cursive;
+}
+.back {
+    border-radius: 5em;
+    color: white;
+    background: #faa094ff;
+    border: 0;
+    width: 200px;
+    height: 70px;
+    padding-left: 50px;
+    padding-right: 40px;
+    padding-bottom: 10px;
+    padding-top: 3px;
+    font-family: 'Carter One', cursive;
+    margin-left: 5%;
+    font-size: 23px;
+    transition: .3s ease-out;
+  }  
+  
+  .back:hover {
+    background: greenyellow;
+    color: seagreen;
+    cursor: pointer;
+  }

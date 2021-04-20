@@ -1,0 +1,42 @@
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Messages</title>
+<link rel="stylesheet" href="msg.css">
+<div class="full">
+        <div class = 'top'>
+                <p class = 'head'>Orders :-</p>
+                
+                </div>
+                <div class = 'bb'>
+                        <a class="pass" href="/backroot">Back</a>
+                </div>
+                <form action="/deletemessage" method="POST">
+                <div class = 'hero'>
+                        <% her.forEach(function(post){ %>
+                
+                                <div class = 'pic'>
+                
+                                <div class = 'by'>
+                                        
+                                        <p class="hh">By :-   <%= post.email %></p>
+                                </div>               
+                                 
+                              
+                              <div class = 'img' >
+                                <p class="hh">Items :-   <%= post.items %></p>
+                              </div>
+                              <div class = 'price'>
+                                <p class="hh">Price :-   <%= post.price %></p>
+                              </div>               
+                              <div class = 'check' >
+                                <input class = 'toggle' type="checkbox" value="<%= post.email %>~<%= post.items %>~<%= post.price %>" name = "items">
+                              </div>    
+                              </div>
+                                <% }) %>
+                
+                </div>
+                <button  class = 'pass' type = "submit">Delete Messages</button>
+                </form>
+                
+                
+                
+</div>
